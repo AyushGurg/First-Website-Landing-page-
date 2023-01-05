@@ -1,0 +1,174 @@
+body {
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    border-color: #E5E7Eb;
+    font-size: 25px;
+    
+}
+
+/* The header the logo and the links */
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #1f2837;
+    color: azure;
+    align-items:center;
+    padding: 0px 200px; 
+}
+h1 {
+    font-size: 24px;
+    color:#F9FAF8;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color:#F9FAF8;
+}
+/* The top of the page  */
+.m-wel{
+    display: flex;
+    margin: 0;
+    background-color: #1f2837;
+    color:#E5E7Eb;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
+.m-button {
+    border:none;
+}
+
+.m-wel-left,.m-wel-right {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+}
+.m-wel >.m-wel-left >.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8   
+}
+
+.m-wel-right {
+    height: 200px;
+    justify-content: center;
+    align-items:center;
+    background-color: #696969;
+}
+
+/* The bottom part of the main */
+.m-bot,.image {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+
+    align-items: center;
+}
+
+.m-bot {
+    margin: 0 200px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.subtext {
+    font-size: 10px;
+    text-align: center;
+
+}
+.images {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+.image {
+    flex-basis: 100px;
+    padding: 0 50px;
+}
+
+.the-picture {
+    width: 100px;
+    flex-basis: 100px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* THE QUOTES SECTION */
+.quote {
+    display: flex;
+    flex-direction: column;
+    margin: 0 250px;
+    margin-top: 220px;
+    margin-bottom: 100px;
+}
+
+.quotes {
+   
+    font-style: italic;
+    font-size: 36px;
+    padding-bottom: 10px;   
+}
+
+.author {
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 20px;
+    text-align: end;
+}
+
+/* ADVERTISEMENT TIME */
+
+.ad {
+    display: flex;
+    background-color: #3882F6;
+    max-width: 1000px;
+    min-width: 800px;
+    padding: 40px 110px;
+    border-radius: 10px;
+    color:#E5E7Eb;
+    justify-content: space-between;
+    align-items:center;  
+    margin-bottom: 100px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 24px;
+    margin:0;
+}
+
+.ad-right {
+    padding-left: 50px;
+}
+
+.ad-button {
+    border-style: solid;
+}
+
+/* footer */
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7Eb;
+    justify-content: center;
+}
